@@ -1,22 +1,9 @@
-# Network Vulnerability Scanner
+## Packet Sniffer Module
 
-## Description
-This project is a Python-based network vulnerability scanner that identifies open ports, detects running services, and analyzes potential security risks.
+The packet-sniffer module captures and analyzes real-time network traffic.  
+It extracts important packet details such as source IP, destination IP, and protocol information.
 
-## Features
-- TCP Port Scanning
-- Service Detection (Banner Grabbing)
-- Vulnerability Identification
-- Automated Scan Results
-
-## Technologies Used
-- Python
-- Socket Programming
-
-## How to Run
-1. Install Python
-2. Run the script:
-   python network_vulnerability_scanner.py
-
-## Author
-Shervin G
+Files:
+- packet_sniffer.py → Captures packets
+- packet_logger.py → Logs packet data
+- packets_log.txt → Stores captured logs
